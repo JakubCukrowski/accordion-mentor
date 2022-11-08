@@ -20,7 +20,7 @@
 105C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\utility-types\dist\index.d.ts133121402862258382 0
 109C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\css-select\lib\procedure.d.ts.map133121402862578393 0
 80C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@swc133121402851261745 1
-68C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea133123870158379677 1
+68C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea133124030409579260 1
 107C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\caniuse-lite\data\regions\HT.js133121402867318390 0
 110C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\svgo\plugins\removeStyleElement.js133121402864048383 0
 120C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\caniuse-lite\data\features\object-entries.js133121402868368378 0
@@ -40,7 +40,7 @@
 110C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\htmlnano\lib\modules\minifyJson.js133121402862358390 0
 105C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\source-map\index.d.ts133121402864828383 0
 116C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\reporter-cli\src\bundleReport.js133121402859669370 0
-67C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist133123871316351362 1
+67C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist133124032017174180 1
 96C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\yaml\browser\pair.js133121402862148384 0
 95C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\lmdb\src\cursor.cpp133121402864748384 0
 99C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\hash\browser.js133121402859829369 0
@@ -85,7 +85,7 @@
 165C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\index.js133121402863748381 0
 73C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\index.html133123347635662387 0
 97C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\node-gyp-build\bin.js133121402859549372 0
-75C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\package.json133121405017573648 0
+75C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\package.json133123875464769708 0
 106C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@swc\helpers\src\_inherits.mjs133121402865578387 0
 120C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\lmdb\node_modules\node-addon-api\common.gypi133121402859779370 0
 112C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\caniuse-lite\dist\unpacker\region.js133121402868658379 0
@@ -106,7 +106,7 @@
 115C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\caniuse-lite\data\features\dommatrix.js133121402866738380 0
 97C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@babel\code-frame\lib133121402859799379 1
 99C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\parent-module\readme.md133121402860258389 0
-67C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\scss133123871314627842 1
+67C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\scss133124032015974338 1
 116C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\type-fest\source\fixed-length-array.d.ts133121402862108386 0
 107C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\caniuse-lite\data\regions\TW.js133121402869248376 0
 117C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\css-tree\lib\syntax\pseudo\nth-of-type.js133121402864848384 0
@@ -144,7 +144,7 @@
 149C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased\package.json133121402864818385 0
 157C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked\dist.js133121402862628390 0
 73C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\src\app.js133123839259805330 0
-78C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\scss\style.scss133123871314627842 0
+78C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\scss\style.scss133124032015974338 0
 112C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\@parcel\watcher\prebuilds\darwin-x64133121402863398383 1
 97C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\posthtml\package.json133121402860348384 0
 128C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133121402861918384 0
@@ -4408,8 +4408,8 @@
 113C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\illustration-woman-online-mobile.a2b1db9b.svg133122424280252554 0
 85C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.816e7b21.js133123839939068839 0
 89C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.816e7b21.js.map133123839939148759 0
-86C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.8368275b.css133123871316351362 0
-90C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.8368275b.css.map133123871316351362 0
+86C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.8368275b.css133124032017174180 0
+90C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.8368275b.css.map133124032017174180 0
 78C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\dist\index.html133123839939068839 0
 87C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\design\active-states.jpg133121400497667546 0
 88C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\design\desktop-design.jpg133121400497757483 0
@@ -4418,4 +4418,4 @@
 96C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea\faq-accordion-card-main.iml133121400777102984 0
 80C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea\modules.xml133121400777212811 0
 85C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea\watcherTasks.xml133121405032907508 0
-82C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea\workspace.xml133123870158379677 0
+82C:\Users\jdcuk\Desktop\frontend-mentor\faq-accordion-card-main\.idea\workspace.xml133124030409579260 0

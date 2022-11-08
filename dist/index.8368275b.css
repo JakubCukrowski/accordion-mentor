@@ -1,5 +1,5 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
 @import "https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
 html {
   -webkit-text-size-adjust: 100%;
 }
@@ -304,57 +304,51 @@ main {
   min-height: 100vh;
   max-width: 100%;
   background: linear-gradient(#af67e9 30%, #6565e7 75%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-@media screen and (min-width: 550px) {
-  main {
+main .container {
+  width: 375px;
+  padding: 150px 20px 20px;
+}
+
+@media screen and (min-width: 950px) {
+  main .container {
+    width: 900px;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     display: flex;
   }
 }
 
-main .container {
-  padding: 150px 20px 20px;
-}
-
-@media screen and (min-width: 550px) {
-  main .container {
-    padding: 20px;
-  }
-}
-
 main .container .card {
-  height: 580px;
   width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  display: flex;
+  padding: 15px;
   position: relative;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 950px) {
   main .container .card {
     width: 900px;
     height: 500px;
-    flex-direction: row;
     justify-content: flex-end;
     padding-left: 0;
     padding-right: 100px;
+    display: flex;
   }
 }
 
 main .container .card .img-wrapper {
   height: 120px;
-  width: 80%;
   position: relative;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 950px) {
   main .container .card .img-wrapper {
     height: 100%;
     width: 100%;
@@ -363,13 +357,14 @@ main .container .card .img-wrapper {
 }
 
 main .container .card .img-wrapper img {
+  width: 80%;
   position: absolute;
-  top: -40%;
+  top: -30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 950px) {
   main .container .card .img-wrapper img {
     top: 50%;
     left: 35%;
@@ -379,11 +374,11 @@ main .container .card .img-wrapper img {
 main .container .card .img-wrapper .at-btn {
   width: 100px;
   height: 100px;
-  top: -25%;
+  top: -20%;
   left: 20%;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 950px) {
   main .container .card .img-wrapper .at-btn {
     width: 150px;
     height: 150px;
@@ -399,7 +394,7 @@ main .container .card .right-side h1 {
   font-weight: 700;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 950px) {
   main .container .card .right-side h1 {
     text-align: left;
     width: 300px;
@@ -407,26 +402,38 @@ main .container .card .right-side h1 {
   }
 }
 
-main .container .card .right-side .question {
+main .container .card .right-side .question-wrapper {
   width: 100%;
+  border-bottom: 1px solid #e7e7e9;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px;
+  display: flex;
+}
+
+main .container .card .right-side .question-wrapper .question {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 0;
   display: flex;
 }
 
-@media screen and (min-width: 550px) {
-  main .container .card .right-side .question {
+@media screen and (min-width: 950px) {
+  main .container .card .right-side .question-wrapper .question {
     padding-left: 0;
   }
 }
 
-main .container .card .right-side .question:last-child {
+main .container .card .right-side .question-wrapper .question p {
+  font-size: 14px;
+}
+
+main .container .card .right-side .question-wrapper:last-child {
   margin-bottom: 30px;
 }
 
-main .container .card .right-side .question i {
+main .container .card .right-side .question-wrapper i {
   color: #f47c57;
 }
 
@@ -443,15 +450,10 @@ p {
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 950px) {
   [data-id] {
     padding-left: 0;
   }
-}
-
-.question-wrapper {
-  width: 100%;
-  border-bottom: 1px solid #e7e7e9;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
