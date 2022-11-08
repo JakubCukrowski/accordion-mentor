@@ -5,7 +5,6 @@ const handleClick = (e)=>{
     for (const answer of answers){
         if (e.target.parentElement.id === answer.dataset.id) {
             answer.classList.remove("hidden");
-            // questionContainer.style.borderBottom = "none"
             questionContainer.firstElementChild.style.fontWeight = "700";
             e.target.style.rotate = "180deg";
         } else if (answer.classList.contains("hidden")) {
