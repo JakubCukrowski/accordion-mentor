@@ -1,0 +1,157 @@
+@import "node_modules/scss-reset/src/scss/_reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+@mixin desktop {
+  @media screen and (min-width: 550px){
+    @content
+  }
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  position: relative;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 100%;
+  background: rgb(175, 103, 233);
+  background: linear-gradient(180deg, rgba(175, 103, 233, 1) 30%, rgba(101, 101, 231, 1) 75%);
+
+  @include desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    padding: 150px 20px 20px 20px;
+
+    @include desktop {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      height: 580px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      @include desktop {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 900px;
+        height: 500px;
+        padding-right: 100px;
+        padding-left: 0;
+      }
+      
+      .img-wrapper {
+        position: relative;
+        height: 120px;
+        width: 80%;
+
+        @include desktop {
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+        }
+
+        img {
+          position: absolute;
+          left: 50%;
+          top: -40%;
+          transform: translate(-50%, -50%);
+
+          @include desktop {
+            top: 50%;
+            left: 35%;
+          }
+
+        }
+
+        .at-btn {
+          left: 20%;
+          top: -25%;
+          width: 100px;
+          height: 100px;
+
+          @include desktop {
+            width: 150px;
+            height: 150px;
+            top: 60%;
+            left: 0;
+          }
+        }
+      }
+      
+      .right-side {
+        
+        h1 {
+          text-align: center;
+          font-size: 30px;
+          font-weight: 700;
+          margin-bottom: 30px;
+
+          @include desktop {
+            margin-top: 0;
+            text-align: left;
+            width: 300px;
+          }
+        }
+
+        .question {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          width: 100%;
+          gap: 20px;
+          //border-bottom: 1px solid hsl(240, 5%, 91%);
+          padding: 20px 0;
+
+          @include desktop {
+            padding-left: 0;
+          }
+
+          &:last-child {
+            margin-bottom: 30px;
+          }
+
+          i {
+            color: hsl(14, 88%, 65%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  font-size: 12px;
+}
+
+[data-id] {
+  padding-bottom: 20px;
+
+  width: 80%;
+
+  @include desktop {
+    padding-left: 0;
+  }
+}
+
+.question-wrapper {
+  width: 100%;
+  border-bottom: 1px solid #e7e7e9;
+}
