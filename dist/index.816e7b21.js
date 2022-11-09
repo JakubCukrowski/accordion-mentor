@@ -1,20 +1,24 @@
-const questionBtns = document.querySelectorAll("button i");
+const questions = document.querySelectorAll(".question");
 const answers = document.querySelectorAll("[data-id]");
 const handleClick = (e)=>{
-    const questionContainer = e.target.parentElement.parentElement;
-    for (const answer of answers){
-        if (e.target.parentElement.id === answer.dataset.id) {
-            answer.classList.remove("hidden");
-            questionContainer.firstElementChild.style.fontWeight = "700";
-            e.target.style.rotate = "180deg";
-        } else if (answer.classList.contains("hidden")) {
-            for (const btn of questionBtns)if (btn !== e.target) btn.style.rotate = "0deg";
-        } else {
-            answer.classList.add("hidden");
-            answer.parentElement.firstElementChild.firstElementChild.style.fontWeight = "400";
+    for (const answer of answers)if (e.currentTarget.parentElement.id === answer.dataset.id) {
+        answer.classList.toggle("hidden");
+        e.currentTarget.lastElementChild.style.rotate = "180deg";
+        e.currentTarget.firstElementChild.style.fontWeight = "700";
+        if (answer.classList.contains("hidden")) {
+            e.currentTarget.lastElementChild.style.rotate = "0deg";
+            e.currentTarget.firstElementChild.style.fontWeight = "400";
         }
+    } else {
+        answer.classList.add("hidden");
+        questions.forEach((question)=>{
+            if (e.currentTarget !== question) {
+                question.lastElementChild.style.rotate = "0deg";
+                question.firstElementChild.style.fontWeight = "400";
+            }
+        });
     }
 };
-for (const btn of questionBtns)btn.addEventListener("click", handleClick);
+for (const question of questions)question.addEventListener("click", handleClick);
 
 //# sourceMappingURL=index.816e7b21.js.map
